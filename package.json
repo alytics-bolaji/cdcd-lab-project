@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "lint": "eslint src/",
-      "test": "jest --coverage",
-      "test:ci": "jest --coverage --ci --forceExit"
+    "lint": "eslint src/",
+    "test": "jest --coverage",
+    "test:ci": "jest --coverage --ci --forceExit"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/alytics-bolaji/cdcd-lab-project#readme",
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.1.0",
+    "globals": "^17.4.0",
     "jest": "^30.3.0"
   }
 }
